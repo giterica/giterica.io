@@ -4,8 +4,8 @@
   "description": "giterica.io website",
   "scripts": {
     "start": "echo 'not implemented yet'",
-    "build": "echo 'not implemented yet'",
-    "docker:build": "echo 'not implemented yet'"
+    "build": "webpack --config=build/webpack.conf.js",
+    "docker:build": "npm run build && build/docker"
   },
   "repository": {
     "type": "git",
@@ -26,8 +26,11 @@
   "homepage": "https://giterica.io",
   "dependencies": {
     "autoprefixer": "^7.2.4",
+    "html-loader": "^0.5.4",
+    "html-webpack-plugin": "^2.30.1",
     "node-sass": "^4.7.2",
     "pug": "^2.0.0-rc.4",
+    "pug-html-loader": "^1.1.5",
     "pug-loader": "^2.3.0",
     "sass-loader": "^6.0.6",
     "webpack": "^3.10.0"

@@ -13,7 +13,7 @@ npm i
 # serve with hot reload at localhost:8080
 npm start
 
-# build for production with minification
+# build for production with minification into docker/dist
 npm run build
 
 # build docker image
