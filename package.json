@@ -1,0 +1,39 @@
+{
+  "name": "giterica.io",
+  "version": "0.0.1",
+  "description": "giterica.io website",
+  "scripts": {
+    "start": "echo 'not implemented yet'",
+    "build": "echo 'not implemented yet'",
+    "docker:build": "echo 'not implemented yet'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/giterica/giterica.io.git"
+  },
+  "keywords": [
+    "Giterica",
+    "giterica.io"
+  ],
+  "author": {
+    "name": "Ilya Erokhin",
+    "email": "sniffsla@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giterica/giterica.io/issues"
+  },
+  "homepage": "https://giterica.io",
+  "dependencies": {
+    "autoprefixer": "^7.2.4",
+    "node-sass": "^4.7.2",
+    "pug": "^2.0.0-rc.4",
+    "pug-loader": "^2.3.0",
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.10.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

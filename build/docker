@@ -1,0 +1,5 @@
+#!/bin/bash
+
+TAG=giterica/giterica.io:`node -e 'console.log(require("./package").version)'`
+
+docker build -t ${TAG} docker # && docker push ${TAG}
