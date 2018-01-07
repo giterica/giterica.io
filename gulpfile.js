@@ -13,7 +13,7 @@ const TARGET_PATH = IS_PRODUCTION ? "docker/dist" : "dev-dist";
 
 const sources = {
   pug: ["src/index.pug"],
-  scss: ["src/all.1.scss"]
+  scss: ["src/all.2.scss"]
 };
 
 gulp.task("pug", () => {
