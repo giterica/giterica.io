@@ -6,12 +6,15 @@ giterica.io static website. Pug, Webpack, Bootstrap 4, FontAwesome, Docker.
 Build Setup
 -----------
 
-``` bash
+```bash
 # install dependencies
 npm i
 
-# serve with hot reload at localhost:8080
+# serve with live reload at localhost:8000
 npm start
+
+# build without minification for development/test/debug purpose into docker/dist
+npm run build:dev
 
 # build for production with minification into docker/dist
 npm run build
