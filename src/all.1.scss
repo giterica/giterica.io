@@ -13,8 +13,12 @@ body {
 }
 
 .container {
-  color: $brand-blue;
   text-align: center;
+  color: $brand-blue;
+
+  a {
+    color: $brand-blue;
+  }
 
   h1 {
     margin-top: -3rem;
