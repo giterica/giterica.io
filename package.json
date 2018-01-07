@@ -4,6 +4,7 @@
   "description": "giterica.io website",
   "scripts": {
     "start": "gulp dev-server",
+    "start:broadcast": "GI_BROADCAST_DEV_SERVER=1 gulp dev-server",
     "build": "NODE_ENV=production gulp build",
     "build:dev": "rimraf docker/build && gulp build",
     "docker:build": "npm run build && docker-build",

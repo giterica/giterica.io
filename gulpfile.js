@@ -4,6 +4,7 @@ const connect = require("gulp-connect");
 const sass = require("gulp-sass");
 
 const IS_PRODUCTION = process.env.NODE_ENV === "production";
+const BROADCAST_DEV_SERVER = Boolean(process.env.GI_BROADCAST_DEV_SERVER);
 const PUG_RENDER_OPTIONS = {
   pretty: !IS_PRODUCTION
 };
@@ -36,7 +37,8 @@ gulp.task('watch', () => {
 gulp.task('connect', () => {
   connect.server({
     root: TARGET_PATH,
-    livereload: true
+    livereload: true,
+    host: BROADCAST_DEV_SERVER ? "0.0.0.0" : "localhost"
   });
 });
 

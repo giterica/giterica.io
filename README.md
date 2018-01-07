@@ -10,8 +10,10 @@ Build Setup
 # install dependencies
 npm i
 
-# serve with live reload at localhost:8000
+# serve with live reload at localhost:8080
 npm start
+# serve with live reload at 0.0.0.0:8080
+npm start:broadcast
 
 # build without minification for development/test/debug purpose into docker/dist
 npm run build:dev
