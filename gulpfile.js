@@ -11,7 +11,7 @@ const TARGET_PATH = "docker/dist";
 
 const sources = {
   pug: ["src/index.pug"],
-  scss: ["src/scss/all.scss"]
+  scss: ["src/all.scss"]
 };
 
 gulp.task("pug", () => {
