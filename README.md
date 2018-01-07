@@ -1,7 +1,7 @@
 giterica.io
 ===========
 
-giterica.io static website. Pug, Webpack, Bootstrap 4, FontAwesome, Docker.
+giterica.io static website. Pug, Sass, Gulp, Bootstrap 4, Docker.
 
 Build Setup
 -----------
