@@ -1,3 +1,37 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$brand-blue: #007BFF;
+
+html, body {
+  height: 100%;
+}
+
 body {
-  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  color: $brand-blue;
+  text-align: center;
+
+  h1 {
+    margin-top: -3rem;
+    font-size: 5rem;
+  }
+
+  pre {
+    color: $gray-500;
+  }
+
+  .dev {
+    font-size: 150%;
+  }
+
+  .license {
+    font-size: 70%;
+    margin-top: $spacer;
+    color: $gray-500;
+  }
 }

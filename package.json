@@ -7,7 +7,7 @@
     "start:broadcast": "GI_BROADCAST_DEV_SERVER=1 gulp dev-server",
     "build": "NODE_ENV=production gulp build",
     "build:dev": "rimraf docker/build && gulp build",
-    "docker:build": "npm run build && docker-build",
+    "docker:build": "npm run build && ./docker-build",
     "clean": "rimraf docker/dist"
   },
   "repository": {
@@ -28,6 +28,7 @@
   },
   "homepage": "https://giterica.io",
   "dependencies": {
+    "bootstrap": "^4.0.0-beta.3",
     "gulp": "^3.9.1",
     "gulp-connect": "^5.2.0",
     "gulp-pug": "^3.3.0",
