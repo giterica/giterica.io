@@ -15,10 +15,10 @@ npm start
 # serve with live reload at 0.0.0.0:8080
 npm start:broadcast
 
-# build without minification for development/test/debug purpose into docker/dist
+# build without minification for development/test/debug purpose into "dev-dist" directory
 npm run build:dev
 
-# build for production with minification into docker/dist
+# build for production with minification into "docker/dist"
 npm run build
 
 # build docker image
