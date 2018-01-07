@@ -8,7 +8,8 @@ const BROADCAST_DEV_SERVER = Boolean(process.env.GI_BROADCAST_DEV_SERVER);
 const PUG_RENDER_OPTIONS = {
   pretty: !IS_PRODUCTION
 };
-const TARGET_PATH = "docker/dist";
+
+const TARGET_PATH = IS_PRODUCTION ? "docker/dist" : "dev-dist";
 
 const sources = {
   pug: ["src/index.pug"],
