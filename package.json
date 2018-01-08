@@ -1,6 +1,6 @@
 {
   "name": "giterica.io",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "giterica.io website",
   "scripts": {
     "start": "gulp dev-server",
